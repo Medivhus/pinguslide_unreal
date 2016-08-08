@@ -1,0 +1,353 @@
+﻿Log file open, 08/08/16 18:01:36
+LogInit:Display: Running engine for game: Pinguslide
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-968097442) SRandInit(-968097440).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.063355
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: F:/other/Unreal Engine/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.08.08-16.01.37:011][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.08-16.01.37:011][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.08-16.01.37:020][  0]LogInit: Computer: MEDIVHUS-PC
+[2016.08.08-16.01.37:020][  0]LogInit: User: Medivhus
+[2016.08.08-16.01.37:020][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.08.08-16.01.37:021][  0]LogInit: High frequency timer resolution =3.906269 MHz
+[2016.08.08-16.01.37:021][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.08.08-16.01.37:021][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.08-16.01.37:021][  0]LogMemory: Process Physical Memory: 190.52 MB used, 190.52 MB peak
+[2016.08.08-16.01.37:021][  0]LogMemory: Process Virtual Memory: 196.88 MB used, 196.88 MB peak
+[2016.08.08-16.01.37:021][  0]LogMemory: Physical Memory: 8341.52 MB used, 16244.77 MB total
+[2016.08.08-16.01.37:021][  0]LogMemory: Virtual Memory: 521.29 MB used, 8388608.00 MB total
+[2016.08.08-16.01.37:065][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.08.08-16.01.37:386][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.08-16.01.37:404][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.08.08-16.01.37:404][  0]LogD3D11RHI:       4007/0/7866 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.08.08-16.01.37:412][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.08.08-16.01.37:412][  0]LogD3D11RHI:       64/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.08.08-16.01.37:412][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.08-16.01.37:419][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.08-16.01.37:419][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2016.08.08-16.01.37:419][  0]LogWindows: EnumDisplayDevices:
+[2016.08.08-16.01.37:419][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2016.08.08-16.01.37:419][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2016.08.08-16.01.37:419][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.08.08-16.01.37:419][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.08.08-16.01.37:419][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.08.08-16.01.37:420][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.08.08-16.01.37:420][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.08.08-16.01.37:420][  0]LogWindows:    7. 'RDPDD Chained DD' (P:0 D:0)
+[2016.08.08-16.01.37:420][  0]LogWindows:    8. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.08.08-16.01.37:420][  0]LogWindows:    9. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.08.08-16.01.37:420][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2016.08.08-16.01.37:420][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.08.08-16.01.37:420][  0]LogD3D11RHI:   Driver Version: 368.69 (internal:10.18.13.6869, unified:368.69)
+[2016.08.08-16.01.37:420][  0]LogD3D11RHI:      Driver Date: 6-29-2016
+[2016.08.08-16.01.37:420][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.08-16.01.37:427][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.08-16.01.37:440][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.08.08-16.01.37:440][  0]LogShaderCompilers: Guid format shader working directory is 25 characters bigger than the processId version (D:/pinguslide/Pinguslide/Intermediate/Shaders/WorkingDirectory/9068/).
+[2016.08.08-16.01.37:440][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Medivhus/AppData/Local/Temp/UnrealShaderWorkingDir/09602CCE4834AF4C629C69B1253D8D8D/'.
+[2016.08.08-16.01.37:440][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.08-16.01.38:508][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.08-16.01.38:516][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.08-16.01.38:524][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.08-16.01.38:531][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.08-16.01.38:538][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.08-16.01.38:546][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.08-16.01.38:554][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.08-16.01.38:560][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.08-16.01.38:567][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.08-16.01.38:574][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.08-16.01.38:580][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.08-16.01.38:594][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.08-16.01.38:594][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.08-16.01.38:595][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.08-16.01.38:615][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.08-16.01.38:621][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.08-16.01.38:628][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.08-16.01.38:634][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.08-16.01.38:641][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.08-16.01.38:641][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.08-16.01.38:704][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.08-16.01.38:749][  0]LogDerivedDataCache: Loaded boot cache 0.04s 48MB C:/Users/Medivhus/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.08-16.01.38:749][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Medivhus/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.08.08-16.01.38:749][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/pinguslide/Pinguslide/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.08-16.01.38:749][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.08-16.01.38:749][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/pinguslide/Pinguslide/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.08-16.01.38:749][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.08-16.01.38:761][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.08-16.01.38:773][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Medivhus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.08-16.01.39:019][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.08-16.01.39:020][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.08-16.01.39:131][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.08-16.01.39:131][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.08-16.01.39:131][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.08-16.01.39:329][  0]LogAssetRegistry: FAssetRegistry took 0.0199 seconds to start up
+[2016.08.08-16.01.39:352][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.020765 seconds
+[2016.08.08-16.01.39:358][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.08.08-16.01.39:358][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.08.08-16.01.39:358][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.08-16.01.39:367][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.08-16.01.39:548][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.08-16.01.39:548][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.08-16.01.40:795][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.08-16.01.41:027][  0]SourceControl: Info Source control is disabled
+[2016.08.08-16.01.41:027][  0]SourceControl: Info Source control is disabled
+[2016.08.08-16.01.41:032][  0]SourceControl: Info Source control is disabled
+[2016.08.08-16.01.41:038][  0]SourceControl: Info Source control is disabled
+[2016.08.08-16.01.41:182][  0]LogEngine: Initializing Engine...
+[2016.08.08-16.01.41:183][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.08-16.01.41:184][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.08-16.01.41:297][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.08-16.01.41:312][  0]LogInit: XAudio2 using 'lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.08-16.01.41:323][  0]LogInit: FAudioDevice initialized.
+[2016.08.08-16.01.41:346][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/Medivhus/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.08-16.01.41:351][  0]LogInit: Texture streaming: Enabled
+[2016.08.08-16.01.41:376][  0]LogInit: Transaction tracking system initialized
+[2016.08.08-16.01.41:396][  0]BlueprintLog: New page: Editor Load
+[2016.08.08-16.01.41:458][  0]LocalizationService: Info Localization service is disabled
+[2016.08.08-16.01.41:511][  0]LogConsoleResponse:Display: 
+[2016.08.08-16.01.41:584][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.08-16.01.41:584][  0]LogCook:Display: Mobile HDR setting 0
+[2016.08.08-16.01.41:664][  0]LogFileCache: Scanning file cache for directory 'D:/pinguslide/Pinguslide/Content/' took 0.01s
+[2016.08.08-16.01.41:664][  0]SourceControl: Info Source control is disabled
+[2016.08.08-16.01.41:664][  0]Cmd: MAP LOAD FILE="D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.08-16.01.41:664][  0]LightingResults: New page: Lighting Build
+[2016.08.08-16.01.41:667][  0]MapCheck: New page: Map Check
+[2016.08.08-16.01.41:667][  0]LightingResults: New page: Lighting Build
+[2016.08.08-16.01.41:751][  0]LogText:Warning: Failed to parse argument "ImportClass" as a number (using "0" as a fallback). Please check your format string for errors: ": Failed import for {ImportClass}".
+[2016.08.08-16.01.41:786][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2016.08.08-16.01.41:787][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.08-16.01.41:788][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.08-16.01.41:898][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 109.837ms to complete.
+[2016.08.08-16.01.41:898][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.234
+[2016.08.08-16.01.42:019][  0]LogCollectionManager: Loaded 1 collections in 0.001384 seconds
+[2016.08.08-16.01.42:059][  0]LogFileCache: Scanning file cache for directory 'D:/pinguslide/Pinguslide/Saved/Collections/' took 0.01s
+[2016.08.08-16.01.42:059][  0]LogFileCache: Scanning file cache for directory 'D:/pinguslide/Pinguslide/Content/Developers/Medivhus/Collections/' took 0.01s
+[2016.08.08-16.01.42:059][  0]LogFileCache: Scanning file cache for directory 'D:/pinguslide/Pinguslide/Content/Collections/' took 0.01s
+[2016.08.08-16.01.42:059][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000003 seconds
+[2016.08.08-16.01.42:059][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2016.08.08-16.01.42:064][  0]LogContentBrowser: Native class hierarchy populated in 0.0058 seconds. Added 2047 classes and 369 folders.
+[2016.08.08-16.01.42:067][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.08.08-16.01.42:067][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.08.08-16.01.42:068][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
+[2016.08.08-16.01.42:072][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.08.08-16.01.42:137][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.08.08-16.01.42:140][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.08.08-16.01.42:150][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.08-16.01.42:196][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.08-16.01.42:220][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.08.08-16.01.42:220][  0]LogLoad: Full Startup: 5.77 seconds (BP compile: 0.02 seconds)
+[2016.08.08-16.01.42:220][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.08.08-16.01.42:233][  0]LogOcInput: OculusInput pre-init called
+[2016.08.08-16.01.42:234][  0]LoadErrors:Error: Error /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Failed import for PaperSprite /Game/MobileStarterContent/Textures/T_Water_N.T_Water_N
+[2016.08.08-16.01.42:254][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.08.08-16.01.42:374][  0]LogRenderer: Reallocating scene render targets to support 1208x768 (Frame:2).
+[2016.08.08-16.01.42:425][  1]LogAssetRegistry: Asset discovery search completed in 3.1167 seconds
+[2016.08.08-16.01.42:425][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000006 seconds (found 0 objects)
+[2016.08.08-16.01.42:430][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.004756 seconds (updated 0 objects)
+[2016.08.08-16.02.59:056][100]LogEditorViewport: Clicking Background
+[2016.08.08-16.03.02:907][559]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2016.08.08-16.03.06:663][  3]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2016.08.08-16.03.06:663][  3]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.08-16.03.06:686][  3]PIE: New page: PIE session: 2DSideScrollerExampleMap (Aug 8, 2016, 7:03:06 PM)
+[2016.08.08-16.03.06:686][  3]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2016.08.08-16.03.06:688][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001012s)
+[2016.08.08-16.03.06:688][  3]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2016.08.08-16.03.06:688][  3]LogPlayLevel: PIE: World Init took: (0.000450s)
+[2016.08.08-16.03.06:688][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.001678s)
+[2016.08.08-16.03.06:705][  3]LogInit: XAudio2 using 'lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.08-16.03.06:710][  3]LogInit: FAudioDevice initialized.
+[2016.08.08-16.03.06:767][  3]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2016.08.08-16.03.06:769][  3]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2016.08.08-18.03.06
+[2016.08.08-16.03.06:769][  3]LogWorld: Bringing up level for play took: 0.001092
+[2016.08.08-16.03.06:846][  3]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2016.08.08-16.03.06:890][  3]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 1.15
+[2016.08.08-16.03.06:890][  3]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2016.08.08-16.03.09:064][262]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2016.08.08-16.03.09:093][262]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2016.08.08-16.04.32:861][952]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/pinguslide/back.bmp)
+[2016.08.08-16.04.32:962][952]LogTexture:Display: Building textures: back (BGRA8)
+[2016.08.08-16.07.22:873][745]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2016.08.08-16.07.31:557][779]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Background_Sprite)
+[2016.08.08-16.07.34:364][ 80]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2016.08.08-16.07.35:975][271]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2016.08.08-16.07.36:493][329]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2016.08.08-16.07.59:408][ 47]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2016.08.08-16.08.03:972][583]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2016.08.08-16.08.04:009][586]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2016.08.08-16.08.04:761][674]LogEditorViewport: Clicking on Component (context menu): PaperSpriteComponent (RenderComponent)
+[2016.08.08-16.08.05:721][781]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2016.08.08-16.08.19:827][329]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 111 classes and 0 folders.
+[2016.08.08-16.08.20:875][329]LogTexture:Display: Building textures: TilePatine_N (BC5)
+[2016.08.08-16.08.20:936][329]LogTexture:Display: Building textures: TilePatine_D (AutoDXT)
+[2016.08.08-16.08.40:568][922]LogSavePackage: Save=51.93ms
+[2016.08.08-16.08.40:568][922]LogSavePackage: Moving 'D:/pinguslide/Pinguslide/Saved/2DSideScrollerExampleMap9DF6B0624A137DE928BEAB81E2E49C70.tmp' to 'D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2016.08.08-16.08.40:569][922]LogSavePackage:Display: Finished SavePackage D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2016.08.08-16.08.40:576][922]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.198
+[2016.08.08-16.08.40:578][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter" FILE="D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" SILENT=true
+[2016.08.08-16.08.40:611][922]LogSavePackage: Save=30.42ms
+[2016.08.08-16.08.40:611][922]LogSavePackage: Moving 'D:/pinguslide/Pinguslide/Saved/2DSideScrollerCharacterBFFB86994FE2AE60F5CE89803E13983A.tmp' to 'D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.08.08-16.08.40:612][922]LogSavePackage:Display: Finished SavePackage D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.08.08-16.08.40:623][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/assets/back_Sprite" FILE="D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/assets/back_Sprite.uasset" SILENT=true
+[2016.08.08-16.08.40:627][922]LogSavePackage: Save=2.95ms
+[2016.08.08-16.08.40:627][922]LogSavePackage: Moving 'D:/pinguslide/Pinguslide/Saved/back_Sprite33B83DEF4E4CD866DA99B382C06E60A9.tmp' to 'D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/assets/back_Sprite.uasset'
+[2016.08.08-16.08.40:628][922]LogSavePackage:Display: Finished SavePackage D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/assets/back_Sprite.uasset
+[2016.08.08-16.08.40:635][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/assets/back" FILE="D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/assets/back.uasset" SILENT=true
+[2016.08.08-16.08.40:684][922]LogSavePackage: Save=48.34ms
+[2016.08.08-16.08.40:684][922]LogSavePackage: Moving 'D:/pinguslide/Pinguslide/Saved/back83F8D143499ED85B8BE287BB6A29AE2B.tmp' to 'D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/assets/back.uasset'
+[2016.08.08-16.08.40:685][922]LogSavePackage:Display: Finished SavePackage D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/assets/back.uasset
+[2016.08.08-16.09.44:403][409]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_19.EdGraphPin_136''
+[2016.08.08-16.09.44:403][409]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5354.EdGraphPin_336''
+[2016.08.08-16.09.44:403][409]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2669.EdGraphPin_360''
+[2016.08.08-16.09.44:403][409]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2866.EdGraphPin_364''
+[2016.08.08-16.09.44:404][409]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_24.EdGraphPin_141''
+[2016.08.08-16.09.44:404][409]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_23.EdGraphPin_128''
+[2016.08.08-16.09.44:404][409]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_39.EdGraphPin_154''
+[2016.08.08-16.09.44:404][409]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_19.EdGraphPin_137''
+[2016.08.08-16.09.44:404][409]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_24.EdGraphPin_140''
+[2016.08.08-16.09.44:404][409]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_39.EdGraphPin_151''
+[2016.08.08-16.09.44:405][409]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_39.EdGraphPin_153''
+[2016.08.08-16.09.44:405][409]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_39.EdGraphPin_152''
+[2016.08.08-16.10.03:414][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter" FILE="D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" SILENT=true
+[2016.08.08-16.10.03:457][ 36]LogSavePackage: Save=34.48ms
+[2016.08.08-16.10.03:457][ 36]LogSavePackage: Moving 'D:/pinguslide/Pinguslide/Saved/2DSideScrollerCharacterDEDA055F4DD1A1BFC0F68BAAB3D4232C.tmp' to 'D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.08.08-16.10.03:458][ 36]LogSavePackage:Display: Finished SavePackage D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.08.08-16.15.31:849][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter" FILE="D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" SILENT=true
+[2016.08.08-16.15.31:894][ 26]LogSavePackage: Save=43.79ms
+[2016.08.08-16.15.31:894][ 26]LogSavePackage: Moving 'D:/pinguslide/Pinguslide/Saved/2DSideScrollerCharacterD052AA8F403C77020DB54885883BC3A5.tmp' to 'D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.08.08-16.15.31:896][ 26]LogSavePackage:Display: Finished SavePackage D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.08.08-16.15.32:322][ 69]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2016.08.08-16.15.32:338][ 69]LogBlueprint:Warning: Compiler Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2016.08.08-16.15.32:452][ 69]LogBlueprint:Warning: Compiler Warning [0835.99] Compile of 2DSideScrollerCharacter successful, but with 1 Warning(s) [in 129 ms] (/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter)
+[2016.08.08-16.15.32:452][ 69]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2016.08.08-16.15.32:452][ 69]BlueprintEditorCompileResults:Warning: Warning [0835.99] Compile of 2DSideScrollerCharacter successful, but with 1 Warning(s) [in 129 ms] (/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter)
+[2016.08.08-16.15.36:533][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter" FILE="D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" SILENT=true
+[2016.08.08-16.15.36:567][474]LogSavePackage: Save=33.02ms
+[2016.08.08-16.15.36:567][474]LogSavePackage: Moving 'D:/pinguslide/Pinguslide/Saved/2DSideScrollerCharacter10DE81A741EDC668027CC2BE4C3098DF.tmp' to 'D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.08.08-16.15.36:568][474]LogSavePackage:Display: Finished SavePackage D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.08.08-16.15.48:067][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter" FILE="D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" SILENT=true
+[2016.08.08-16.15.48:101][591]LogSavePackage: Save=32.52ms
+[2016.08.08-16.15.48:101][591]LogSavePackage: Moving 'D:/pinguslide/Pinguslide/Saved/2DSideScrollerCharacter4801356246E768855F537F964C54C40E.tmp' to 'D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.08.08-16.15.48:102][591]LogSavePackage:Display: Finished SavePackage D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.08.08-16.15.49:539][728]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2016.08.08-16.15.49:605][728]LogBlueprint:Warning: Compiler Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2016.08.08-16.15.49:666][728]LogBlueprint:Warning: Compiler Warning [0853.21] Compile of 2DSideScrollerCharacter successful, but with 1 Warning(s) [in 126 ms] (/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter)
+[2016.08.08-16.15.49:666][728]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2016.08.08-16.15.49:666][728]BlueprintEditorCompileResults:Warning: Warning [0853.21] Compile of 2DSideScrollerCharacter successful, but with 1 Warning(s) [in 126 ms] (/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter)
+[2016.08.08-16.15.51:740][928]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2016.08.08-16.15.51:740][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.08-16.15.51:740][928]PIE: New page: PIE session: 2DSideScrollerExampleMap (Aug 8, 2016, 7:15:51 PM)
+[2016.08.08-16.15.51:740][928]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2016.08.08-16.15.51:741][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000906s)
+[2016.08.08-16.15.51:741][928]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2016.08.08-16.15.51:741][928]LogPlayLevel: PIE: World Init took: (0.000380s)
+[2016.08.08-16.15.51:742][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.001424s)
+[2016.08.08-16.15.51:765][928]LogInit: XAudio2 using 'lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.08-16.15.51:769][928]LogInit: FAudioDevice initialized.
+[2016.08.08-16.15.51:811][928]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2016.08.08-16.15.51:813][928]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2016.08.08-18.15.51
+[2016.08.08-16.15.51:813][928]LogWorld: Bringing up level for play took: 0.001050
+[2016.08.08-16.15.51:814][928]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.069
+[2016.08.08-16.15.51:814][928]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2016.08.08-16.15.54:491][231]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2016.08.08-16.15.54:529][231]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2016.08.08-16.16.08:455][399]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2016.08.08-16.16.08:455][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.08-16.16.08:455][399]PIE: New page: PIE session: 2DSideScrollerExampleMap (Aug 8, 2016, 7:16:08 PM)
+[2016.08.08-16.16.08:455][399]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2016.08.08-16.16.08:456][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000993s)
+[2016.08.08-16.16.08:456][399]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2016.08.08-16.16.08:456][399]LogPlayLevel: PIE: World Init took: (0.000441s)
+[2016.08.08-16.16.08:456][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.001590s)
+[2016.08.08-16.16.08:478][399]LogInit: XAudio2 using 'lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.08-16.16.08:483][399]LogInit: FAudioDevice initialized.
+[2016.08.08-16.16.08:526][399]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2016.08.08-16.16.08:528][399]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2016.08.08-18.16.08
+[2016.08.08-16.16.08:528][399]LogWorld: Bringing up level for play took: 0.001192
+[2016.08.08-16.16.08:529][399]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.784
+[2016.08.08-16.16.08:529][399]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2016.08.08-16.16.10:599][645]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2016.08.08-16.16.10:635][645]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2016.08.08-16.16.18:127][381]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2016.08.08-16.16.52:710][125]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2016.08.08-16.16.52:727][125]LogBlueprint:Warning: Compiler Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2016.08.08-16.16.52:844][125]LogBlueprint:Warning: Compiler Warning [0916.38] Compile of 2DSideScrollerCharacter successful, but with 1 Warning(s) [in 133 ms] (/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter)
+[2016.08.08-16.16.52:844][125]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2016.08.08-16.16.52:844][125]BlueprintEditorCompileResults:Warning: Warning [0916.38] Compile of 2DSideScrollerCharacter successful, but with 1 Warning(s) [in 133 ms] (/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter)
+[2016.08.08-16.16.53:351][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter" FILE="D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" SILENT=true
+[2016.08.08-16.16.53:385][181]LogSavePackage: Save=32.80ms
+[2016.08.08-16.16.53:385][181]LogSavePackage: Moving 'D:/pinguslide/Pinguslide/Saved/2DSideScrollerCharacterDF13E53C43A45380F9A603AE49A5E4B3.tmp' to 'D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.08.08-16.16.53:386][181]LogSavePackage:Display: Finished SavePackage D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.08.08-16.17.12:324][307]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2016.08.08-16.17.12:396][307]BlueprintEditorCompileResults: Info [0935.94] Compile of 2DSideScrollerCharacter successful! [in 71 ms] (/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter)
+[2016.08.08-16.17.12:985][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter" FILE="D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" SILENT=true
+[2016.08.08-16.17.13:017][373]LogSavePackage: Save=30.63ms
+[2016.08.08-16.17.13:017][373]LogSavePackage: Moving 'D:/pinguslide/Pinguslide/Saved/2DSideScrollerCharacterF0752AE141E32300E6898BAD5BFE1F2D.tmp' to 'D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.08.08-16.17.13:018][373]LogSavePackage:Display: Finished SavePackage D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.08.08-16.17.14:742][568]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2016.08.08-16.17.14:742][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.08-16.17.14:742][568]PIE: New page: PIE session: 2DSideScrollerExampleMap (Aug 8, 2016, 7:17:14 PM)
+[2016.08.08-16.17.14:742][568]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2016.08.08-16.17.14:743][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000998s)
+[2016.08.08-16.17.14:743][568]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2016.08.08-16.17.14:743][568]LogPlayLevel: PIE: World Init took: (0.000478s)
+[2016.08.08-16.17.14:743][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.001628s)
+[2016.08.08-16.17.14:766][568]LogInit: XAudio2 using 'lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.08-16.17.14:771][568]LogInit: FAudioDevice initialized.
+[2016.08.08-16.17.14:815][568]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2016.08.08-16.17.14:817][568]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2016.08.08-18.17.14
+[2016.08.08-16.17.14:817][568]LogWorld: Bringing up level for play took: 0.001338
+[2016.08.08-16.17.14:818][568]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 1.072
+[2016.08.08-16.17.14:818][568]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2016.08.08-16.17.23:164][569]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2016.08.08-16.17.23:195][569]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2016.08.08-16.17.37:418][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter" FILE="D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" SILENT=true
+[2016.08.08-16.17.37:449][ 95]LogSavePackage: Save=30.15ms
+[2016.08.08-16.17.37:449][ 95]LogSavePackage: Moving 'D:/pinguslide/Pinguslide/Saved/2DSideScrollerCharacter092AD397496569909DD5AEAE9BCD1694.tmp' to 'D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.08.08-16.17.37:450][ 95]LogSavePackage:Display: Finished SavePackage D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.08.08-16.17.37:855][138]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2016.08.08-16.17.37:931][138]BlueprintEditorCompileResults: Info [0961.47] Compile of 2DSideScrollerCharacter successful! [in 76 ms] (/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter)
+[2016.08.08-16.17.38:368][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter" FILE="D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" SILENT=true
+[2016.08.08-16.17.38:400][181]LogSavePackage: Save=30.53ms
+[2016.08.08-16.17.38:400][181]LogSavePackage: Moving 'D:/pinguslide/Pinguslide/Saved/2DSideScrollerCharacter186BABA646028BDE9C60D38DF9D3CE05.tmp' to 'D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2016.08.08-16.17.38:400][181]LogSavePackage:Display: Finished SavePackage D:/pinguslide/Pinguslide/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2016.08.08-16.17.39:273][269]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScroller
